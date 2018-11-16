@@ -16,6 +16,7 @@ codes = ["AF369HYUZ", "DW327KOLI", "KU789MNIL", "ST672FRGH", "WS741ESFG", "SW309
 
 count = 0
 
+#Preload sounds files
 hint_sound = sa.WaveObject.from_wave_file("./files/hint_sound.wav")
 wrong_sound = sa.WaveObject.from_wave_file("./files/wrong_buzzer.wav")
 deactivate_sound = sa.WaveObject.from_wave_file("./files/shut_down.wav")
